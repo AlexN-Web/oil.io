@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Подсолнечное масло | G AND D UNION LLC</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body {
+            background: #f7f7f7;
+            font-family: Arial, sans-serif;
+            margin: 0;
+        }
+        .product-page-container {
+            max-width: 900px;
+            margin: 40px auto;
+            background: #fff;
+            border-radius: 18px;
+            box-shadow: 0 4px 24px rgba(0,0,0,0.10);
+            display: flex;
+            flex-wrap: wrap;
+            padding: 32px;
+            gap: 32px;
+        }
+        .product-page-img {
+            flex: 1 1 320px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #fff;
+            border-radius: 12px;
+            min-width: 280px;
+            min-height: 320px;
+        }
+        .product-page-img img {
+            max-width: 100%;
+            max-height: 340px;
+            object-fit: contain;
+            border-radius: 12px;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.05);
+        }
+        .product-page-info {
+            flex: 2 1 340px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .product-page-info h1 {
+            font-size: 2rem;
+            margin-bottom: 18px;
+            color: #222;
+        }
+        .product-page-price {
+            font-size: 1.3rem;
+            color: #f7b32b;
+            font-weight: 700;
+            margin-bottom: 18px;
+        }
+        .product-page-desc {
+            font-size: 1.1rem;
+            color: #444;
+            margin-bottom: 28px;
+            line-height: 1.6;
+        }
+        .product-page-btn {
+            display: inline-block;
+            padding: 12px 36px;
+            background: #f7b32b;
+            color: #fff;
+            border-radius: 24px;
+            font-weight: 600;
+            text-decoration: none;
+            font-size: 1.1rem;
+            transition: background 0.2s, transform 0.2s;
+            box-shadow: 0 2px 8px rgba(247,179,43,0.10);
+        }
+        .product-page-btn:hover {
+            background: #e09e15;
+            transform: translateY(-2px) scale(1.05);
+        }
+        @media (max-width: 800px) {
+            .product-page-container {
+                flex-direction: column;
+                padding: 18px;
+            }
+            .product-page-img, .product-page-info {
+                min-width: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header class="header">
+    <a href="index.html" class="logo">G AND D UNION LLC</a>
+    <nav class="navbar">
+        <a href="index.html#pricing">Продукция</a>
+        <a href="index.html#blogs">Бренды</a>
+        <a href="index.html#about">О нас</a>
+        <a href="index.html#contact">Контакты</a>
+    </nav>
+</header>
+
+<main>
+    <div class="product-page-container">
+        <div class="product-page-img">
+            <img src="images/goods/vegitable_oil.jpg" alt="Подсолнечное масло">
+        </div>
+        <div class="product-page-info">
+            <h1>Подсолнечное масло</h1>
+            <div class="product-page-price">от 250 ₽</div>
+            <div class="product-page-desc">
+                Натуральное подсолнечное масло первого отжима, произведённое по современным технологиям с сохранением всех полезных свойств. Идеально подходит для приготовления салатов, жарки и выпечки. <br><br>
+                <b>Объём:</b> 1 л, 3 л, 5 л<br>
+                <b>Состав:</b> 100% подсолнечное масло<br>
+                <b>Срок годности:</b> 12 месяцев<br>
+                <b>Страна производства:</b> Грузия
+            </div>
+            <a href="mailto:info@example.com?subject=Заказ%20подсолнечного%20масла" class="product-page-btn">Заказать</a>
+        </div>
+    </div>
+</main>
+
+<footer class="footer" style="margin-top:40px;">
+    <div class="links">
+        <a class="btn" href="index.html#pricing">Продукция</a>
+        <a class="btn" href="index.html#blogs">Бренды</a>
+        <a class="btn" href="index.html#about">О нас</a>
+        <a class="btn" href="index.html#contact">Контакты</a>
+    </div>
+    <div class="credit"><span>GEORGIA, TBILISI, SABURTALO DISTRICT, SIMON CHIKOVANI STR., N 38, APT. 6 </span></div>
+</footer>
+
+</body>
+</html>
